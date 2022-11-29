@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vue Mastery</title>
+        <link rel="stylesheet" href="./assets/style.css">
+        <!-- Import Vue.js CDN -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{product}}</h1>
+        </div>
+    </body>
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+    <!-- Mount App -->
+    <script>
+        // Với app.mount là tên biến đã tạo ở main.js vào #app là id của element trong html
+        const mountedApp=app.mount('#app')
+    </script>
+</html>
